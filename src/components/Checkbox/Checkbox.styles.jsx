@@ -8,6 +8,7 @@ const StyledCheckbox = styled.label`
   border-radius: 50%;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 `;
 
 const StyledCheckboxInput = styled.input`

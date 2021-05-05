@@ -7,8 +7,9 @@ const rem = (px, measure = "rem") => `${px / BASE_FONT_SIZE}${measure}`;
 
 const StyledTodoItem = styled.li`
   background-color: #ffffff;
-  padding: ${rem(16)} ${rem(20)};
   list-style-type: none;
+  margin-bottom: 0;
+  border-bottom: 1px solid #393A4B;
 
   ${Checkbox} {
     margin-right: 1rem;

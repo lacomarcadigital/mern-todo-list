@@ -1,6 +1,6 @@
 import "./Input.scss";
 
-const Input = ({ type, placeholder, name, id }) => {
+const Input = ({ type, placeholder, name, id, value }) => {
   
   return (
     <input
@@ -9,6 +9,7 @@ const Input = ({ type, placeholder, name, id }) => {
       name={name}
       id={id}
       placeholder={placeholder}
+      value={value}
     />
   )
 }
