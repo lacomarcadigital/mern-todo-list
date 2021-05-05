@@ -2,6 +2,7 @@
 import React from "react";
 import TodoItem from "./TodoItem";
 import Input from "./../Input";
+import Checkbox from './../Checkbox';
 
 const Template = (args) => <TodoItem {...args} />;
 
@@ -14,6 +15,9 @@ Default.args = {
       name="new-todo"
       id="new-todo"
     />
+  ),
+  Checkbox: (
+    <Checkbox name="field-checkbox" id="field-checkbox" />
   )
 }
 
