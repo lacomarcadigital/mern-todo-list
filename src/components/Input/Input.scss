@@ -1,10 +1,14 @@
 .input {
-  background-color: teal;
-  color: white;
+  background: none;
+  color: #C8CBE7;
   border: none;
-  padding: 1rem;
+  width: 100%;
 
   &::placeholder {
-    color: #ffffffaa;
+    color: #767992;
+  }
+
+  &:focus {
+    outline: none;
   }
 }

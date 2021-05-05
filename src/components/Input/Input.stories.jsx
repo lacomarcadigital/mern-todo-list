@@ -1,8 +1,13 @@
 
 import React from "react";
 import Input from "./Input";
+import Field from "./../Field/Field";
 
-const Template = (args) => <Input {...args} />;
+const Template = (args) => (
+  <Field>
+    <Input {...args} />
+  </Field>
+);
 
 export const Default = Template.bind({});
 Default.args = {
